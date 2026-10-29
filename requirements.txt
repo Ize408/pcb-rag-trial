@@ -1,0 +1,15 @@
+openai>=1.40
+azure-search-documents>=11.4.0
+pypdf>=4.0
+scikit-learn>=1.3
+numpy
+pandas>=2.0
+joblib
+python-dotenv
+fastapi>=0.110
+uvicorn[standard]
+# only needed for scripts/make_sample_data.py
+reportlab
+# tests
+pytest
+httpx
