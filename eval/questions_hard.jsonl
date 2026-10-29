@@ -1,0 +1,10 @@
+{"question": "What's the max input voltage of the LDO?", "source": "AX3318", "expect": "6.5 V"}
+{"question": "what decoupling cap goes on the buck input", "source": "BK1210", "expect": "10 uF"}
+{"question": "How much current does the 3.3V regulator draw with no load?", "source": "AX3318", "expect": "45"}
+{"question": "Can I run the buck converter from 12 V?", "source": "BK1210", "expect": "17 V"}
+{"question": "how do I check the board isn't shorted before powering it", "source": "CTRL-BRD", "expect": "1 kOhm"}
+{"question": "what's the thermal resistance of the regulator package", "source": "AX3318", "expect": "120 C/W"}
+{"question": "Is the power-on current of the L2408 boards a problem?", "source": "CTRL-BRD", "expect": "inside test limits"}
+{"question": "which boards had a low core voltage", "source": "statistics", "expect": "CB-24-00113"}
+{"question": "what's the yield of rev B vs rev C", "source": "statistics", "expect": "33%"}
+{"question": "Where does the serial console connect?", "source": "CTRL-BRD", "expect": "J4"}

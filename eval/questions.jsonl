@@ -1,0 +1,18 @@
+{"question": "What is the absolute maximum input voltage of the AX3318?", "source": "AX3318", "expect": "6.5 V"}
+{"question": "What is the dropout voltage of the AX3318 at 300 mA?", "source": "AX3318", "expect": "180"}
+{"question": "Which pin is EN on the AX3318?", "source": "AX3318", "expect": "| 3 | EN"}
+{"question": "What output capacitor does the AX3318 need?", "source": "AX3318", "expect": "1 uF"}
+{"question": "How hot will the LDO get at 250 mA from 5 V?", "source": "AX3318", "expect": "51 C"}
+{"question": "What inductor should I use with the BK1210 for a 1.2 V output?", "source": "BK1210", "expect": "2.2 uH"}
+{"question": "What resistor values set the BK1210 output to 3.3 V?", "source": "BK1210", "expect": "453 kOhm"}
+{"question": "What is the switching frequency of the buck converter?", "source": "BK1210", "expect": "1.2 MHz"}
+{"question": "Which test point do I use to measure the 1V2 rail?", "source": "CTRL-BRD", "expect": "TP2"}
+{"question": "What are the test limits for the 3V3 rail on CTRL-BRD?", "source": "CTRL-BRD", "expect": "3.20 - 3.40"}
+{"question": "What changed on CTRL-BRD rev C compared to rev B?", "source": "CTRL-BRD", "expect": "R12"}
+{"question": "What baud rate is the UART debug header J4?", "source": "CTRL-BRD", "expect": "115200"}
+{"question": "Why did board CB-24-00127 fail?", "source": "CB-24-00127", "expect": "0x44"}
+{"question": "What was the 1V2 rail voltage on CB-24-00113?", "source": "CB-24-00113", "expect": "1.15"}
+{"question": "Which test step fails most often?", "source": "statistics", "expect": "uart_loopback: 4"}
+{"question": "How many boards failed the uart loopback test and which revision were they?", "source": "statistics", "expect": "rev b"}
+{"question": "Why do boards from lot L2408 draw more current at power on?", "source": "CTRL-BRD", "expect": "D3"}
+{"question": "What should I check if 1V2 reads low?", "source": "CTRL-BRD", "expect": "R30"}
