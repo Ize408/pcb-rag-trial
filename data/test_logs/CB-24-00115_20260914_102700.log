@@ -1,0 +1,20 @@
+=== CTRL-BRD FUNCTIONAL TEST ===
+station: FCT-01
+board: CTRL-BRD rev C
+serial: CB-24-00115
+pcb_lot: L2406
+operator: kd
+start: 2026-09-14 10:27:00
+
+[10:27:02] STEP 01 power_on_current      306.5 mA  lim 250.0..400.0   PASS
+[10:27:04] STEP 02 rail_vbus             5.045 V   lim 4.750..5.250   PASS
+[10:27:05] STEP 03 rail_3v3              3.265 V   lim 3.200..3.400   PASS
+[10:27:09] STEP 04 rail_1v2              1.209 V   lim 1.164..1.236   PASS
+[10:27:12] STEP 05 ripple_1v2             11.0 mV  lim 0.0..25.0   PASS
+[10:27:13] STEP 06 flash_firmware            -                          PASS
+[10:27:15] STEP 07 uart_loopback             -                          PASS
+[10:27:17] STEP 08 i2c_sensor_scan           -                          PASS
+[10:27:21] STEP 09 relay_toggle              -                          PASS
+
+result: PASS
+end: 2026-09-14 10:27:21
